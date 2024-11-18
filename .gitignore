@@ -12,11 +12,7 @@ env/
 ENV/
 
 # Docker 관련
-.docker/
 docker-compose.override.yml
-
-# AWS 관련
-.aws/
 
 # Django 관련
 *.sqlite3
