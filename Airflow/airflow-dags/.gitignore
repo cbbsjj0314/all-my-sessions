@@ -1,0 +1,9 @@
+config/
+logs/
+plugins/
+
+# 가상 환경
+my-venv/
+
+# IDE 환경 설정
+.idea/
