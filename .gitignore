@@ -1,0 +1,25 @@
+# Python 환경
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 가상 환경
+.venv/
+env/
+ENV/
+
+# Docker 관련
+.docker/
+docker-compose.override.yml
+
+# AWS 관련
+.aws/
+
+# Django 관련
+*.sqlite3
+db.sqlite3
+
+# 기타
+*.log
+*.bak
