@@ -8,10 +8,12 @@ on:
     branches: [ "main" ]
     paths:
       - "docker-practice/webservice-with-docker/hangman_web/**"
+      - ".github/workflows/**"
   pull_request:
     branches: [ "main" ]
     paths:
       - "docker-practice/webservice-with-docker/hangman_web/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: read
