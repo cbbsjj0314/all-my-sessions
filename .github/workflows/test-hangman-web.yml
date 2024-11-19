@@ -6,8 +6,12 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - "all-my-sessions/docker-practice/webservice-with-docker/hangman_web/**"
   pull_request:
     branches: [ "main" ]
+    paths:
+      - "all-my-sessions/docker-practice/webservice-with-docker/hangman_web/**"
 
 permissions:
   contents: read
